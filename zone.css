@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+table ,td,tr{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    width: 800px;
+    height:min-content;
+    font-size: large;
+    font-family: 'ma nouvelle';
+    background-color: #bbbbbb;
+    
+    }
+    @media screen and(max-width:767px) {
+    
+    }
+    .IMAGES{
+        background-color:#bbbbbb;
+        color: rgb(0, 0, 0);
+        padding: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .img2{
+            width: 25%;
+            float: left;
+            height: 200px;
+        }
+        .img3{
+            width: 25%;
+            height: 200px;
+        }
+        .img4{
+            width: 25%;
+            height: 200px;
+        }
+        .img5{
+            width: 25%;
+            height: 200px;
+        }
+    body{
+        background-color: #bbbbbb;
+    }
+    table{
+        margin-bottom: 20px;
+      
+    }
+    .mright{
+        float: right;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .menu{
+        background:  rgb(104, 104, 104);
+        width: 100%;
+        height: 66px;
+        
+    }
+    .mlink{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: 0;
+        margin: 0 10px;
+        transition: all0.3s ease-in-out;
+        border-bottom: 2px solid transparent;
+       
+    }
+    .mlink:hover{
+        
+        padding-bottom: 3px;
+        border-color: rgb(255, 255, 255);
+    }
+    @font-face{
+        font-family: 'ma nouvelle';
+        src: url(images/KleeOne-SemiBold.ttf);
+    }
+    h2{
+        text-align: center;
+        font-family: 'ma nouvelle';
+        font-size: xx-large;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    img{
+        height: 40px;
+        width: 40px;
+    }
+
+.conta{
+    max-width: 1170px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer{
+    background-color: rgb(88, 88, 88);
+    padding: 70px 0;
+}
+.footer-col{
+width: 50%;
+padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e30b0b;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+}
+
+
+.footer-col ul li :not(:last-child){
+margin-bottom: 10px;
+
+}
+
+
+.footer-col ul li a{
+   font-size: 16px;
+   text-transform: capitalize;
+   color: #fff;
+   text-decoration: none;
+   font-weight: 300;
+   color: #bbbbbb;
+   display: block;
+   transition: all 0.3s ease;
+    }
+    
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.footer-col .Social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin:0 10px 10px 0 ;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
